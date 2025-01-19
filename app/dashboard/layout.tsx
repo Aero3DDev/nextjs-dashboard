@@ -1,4 +1,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
+
+/* Chapter 10 - add the experimental_ppr segment config option to your dashboard layout: */
+/* export const experimental_ppr = true; */
  
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
